@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+#about {
+    
+}
+
+.about-box {
+    width: 620px;
+    align-items: center;
+    background-color: aquamarine;
+}
