@@ -3,11 +3,34 @@ body {
 }
 
 #about {
-    
+    background-image: url(../assets/images/about-bg.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .about-box {
     width: 620px;
-    align-items: center;
-    background-color: aquamarine;
+    background-color: rgba(227, 250, 241, 0.95);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 68, 35);
+}
+
+.closing {
+    text-align: right;
+    font-style: italic;
+    color: goldenrod;
+}
+
+footer {
+    text-align: center;
+    padding: 32px;
 }
