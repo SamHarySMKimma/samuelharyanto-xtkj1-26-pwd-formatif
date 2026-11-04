@@ -5,7 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>card badge</title>
     <style>
+        body{
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #top {
+            padding: 2px;
+            background-color: rgb(13, 152, 76);
+            width: 100%;
+            color:azure;
+            text-align: center;
+        }
+        .card {
+            position: relative;
+            width: 360px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 2px solid rgb(12, 148, 0);
+            border-radius: 24px;
+            background-color: white;
+        }
+        .card .badge {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: #f4d040;
+            border-radius: 44px;
+            padding: 2%;
+        }
 
+        .back-to-top {
+            position: fixed;
+            background: darkcyan;
+            color: aliceblue;
+            border-radius: 8px;
+            text-decoration: none;
+            padding: 8px;
+            right: 20px;
+            bottom: 20px;
+            z-index: 12;
+            transition: all 0.3s ease;
+        }
+        .back-to-top:hover {
+            transform: scale(1.2);
+        }
+
+        p {
+            width: 360px;
+            align-self: center;
+        }
+
+        .card img {
+            width: 360px;
+            border-radius: 24px 24px 0px 0px;
+        }
     </style>
 </head>
 
@@ -15,22 +71,40 @@
     </header>
     <main>
         <div class="card">
-            <img src="" alt="decor">
+            <img src="../assets/images/card-image.jpeg" alt="gambar">
             <span class="badge">BARU</span>
-            <h3>Nama gambar</h3>
-            <p>Deskripsi gambar</p>
+            <h3>Foto yang saya ambil pada malam hari</h3>
+            <p>
+                Dengan menggunakan mode Pro, shutter ke 20-30, bersama dengan tripod, dan mengarahkan hp saya ke atas di tempat yang gelap untuk mentangkap gambar ini dan di edit fotonya (maksudnya kecerahannya di edit dan setersunya) untuk mencapai gambar nii.
+            </p>
         </div>
     </main>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <footer>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <p>
+        Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <footer
+    oter>
         <a href="">Kembali ke Beranda</a>
     </footer>
-    <a href="#top" class="back-to-top">Ke atas</a>
+    <a href="#top" class="back-to-top">▲ Ke Atas</a>
 </body>
 
 </html>
