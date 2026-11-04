@@ -1,7 +1,9 @@
+/* Font */
 body {
     font-family: sans-serif;
 }
 
+/* Latar */
 #about {
     background-image: url(../assets/images/about-bg.jpeg);
     background-size: cover;
@@ -12,6 +14,7 @@ body {
     padding: 100px;
 }
 
+/* Text */
 .about-box {
     width: 620px;
     background-color: rgba(227, 250, 241, 0.95);
