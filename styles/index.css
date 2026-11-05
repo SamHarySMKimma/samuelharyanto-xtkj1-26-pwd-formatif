@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cdffff;
+}
+
+header{
+    padding: 2px;
+    background-color: rgb(13, 152, 76);
+    width: 100%; /* width 100% akan memenuhi besar web viewnya (window)*/
+    color:azure;
+    text-align: center;
+}
+
+#components h2, #pages h2{
+    color: darkgreen;
+}
+
+main {
+    margin-left: 30%;
+}
+
+main a{
+    color: goldenrod;
+}
+
+li {
+    margin: 8px 0px;
+}
+
+footer {
+    padding: 2px;
+    background-color: rgb(191, 240, 213,0.5);
+    width: 100%; /* width 100% akan memenuhi besar web viewnya (window)*/
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
