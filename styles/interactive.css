@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(240, 254, 255);
+}
+
+.menu a {
+    transition: all 0.3s ease;
+}
+.menu a:hover{
+    color: rgb(208, 208, 254);
+}
+
+.a-group {
+    margin: 12px 0px;
+    a{
+        text-decoration: none;
+        margin: 0px 12px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-grow{
+    background: rgb(168, 96, 220);
+    transition: all 0.4 ease-out;
+}
+.btn-grow:hover{
+    transform: scale(105%);
+}
+
+.btn-darken{
+    background: goldenrod;
+    transition: all 0.4 linear;
+}
+.btn-darken:hover{
+    background: rgb(126, 109, 14);
+}
+
+a:focus {
+    outline: 2px solid #650aa6;
+}
+
+footer{
+    margin-top: 32px;
+}
